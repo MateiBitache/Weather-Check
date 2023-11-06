@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style.css')}}"
+</head>
+<body>
+<form action="/" method="POST">
+    <div {%if id%} id={{id}} {%endif%}>
+        <label for="City">City name:</label>
+       <input type="text" id="City" name="city">
+        <input type="submit">
+     </div>
+</form>
+{%if city and temperature:%}
+    <h1>Current Weather in {{city}} is :  <a id="ceva"> {{temperature}}</a> </h1>
+{%endif%}
+</body>
+</html>
