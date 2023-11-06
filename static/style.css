@@ -1,7 +1,7 @@
 #ceva{
-    border: 5px solid #3498db; /* Border with increased width */
-    border-radius: 30px; /* Horizontal and vertical radii */
-    padding: 10px; /* Padding to separate content from border */
+    border: 5px solid #3498db;
+    border-radius: 30px; 
+    padding: 10px; 
 }
 #hide{
     display: none;
